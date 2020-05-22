@@ -3,3 +3,120 @@
 .hidden {
 	display: none;
 }
+
+#wrapper {
+	width: 1300px;
+	margin: 0px auto;
+}
+
+#mainHeader {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	border-bottom: 2px lightgrey solid;
+	margin-bottom: 32px;
+}
+
+#siteTitle {
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 36px;
+}
+
+#mainNav {
+	display: inline;
+	margin-left: 16px;	
+}
+
+#mainNav ul {
+	display: flex;
+}
+
+#mainNav ul li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 12px;
+}
+
+#mainNav ul li a {
+	font-family: Helvetica, arial, sans-serif;
+	border-radius: 10px;
+	color: #333;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .5s ease-in-out;
+	padding: 10px;
+}
+
+#mainNav ul li a:hover {
+	color: #333;
+	background-color: #73B2E3;
+}
+
+#search input {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	width: 1300px;
+	height: 32px;
+}
+
+.iconRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+}
+
+#iconRow object {
+	
+}
+
+#iconSelection {
+	margin: 0px auto;
+	padding-bottom: 32px;
+}
+
+#sectionMap {
+	font-size: 24px;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+.icon {
+	width: 250px;
+}
+
+footer {
+	width: 1300px;
+	border-top: 2px lightgrey dashed;
+	justify-content: center;
+	align-items: center;
+	padding-top: 32px;
+}
+
+#footerLinks {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#copyright {
+	font-family: Helvetica, arial, sans-serif;
+	color: #333;
+	order: -1;
+}
+
+#socialMedia ul {
+	display: flex;
+	flex-direction: row;
+}
+
+#socialMedia ul li {
+	padding: 10px;
+}
+
+#socialMedia img {
+	width: 40px;
+}

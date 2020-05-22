@@ -7,6 +7,9 @@ Repo for the SVG Marketplace assignment containing all elements required.
 ## Installation:
 There is no installation process for this repo. Simply pull down and enjoy.
 
+## Resources:
+Icon Outlines from [FlatIcons](https://www.flaticon.com/ 'FlatIcons') (edited for assignment)
+
 ## MIT License:
 MIT License
 
