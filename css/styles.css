@@ -69,8 +69,16 @@
 	margin: 20px;
 }
 
-#iconRow object {
-	
+object {
+	border-radius: 125px;
+	width: 250px;
+	height: 250px;
+	/*border: #000 5px solid;*/
+}
+
+object:hover {
+	transition: all .5s ease-in-out;
+	box-shadow: 0 7px 10px rgba(0,0,0,.5); 
 }
 
 #iconSelection {
@@ -81,10 +89,16 @@
 #sectionMap {
 	font-size: 24px;
 	font-family: Helvetica, arial, sans-serif;
+
 }
 
 .icon {
+	text-align: center;
 	width: 250px;
+}
+
+.icon button {
+	margin-top: 8px;
 }
 
 footer {
@@ -119,4 +133,9 @@ footer {
 
 #socialMedia img {
 	width: 40px;
+}
+
+object {
+	width: 250px;
+	height: 250px;
 }
