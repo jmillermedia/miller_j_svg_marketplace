@@ -1,4 +1,4 @@
-<svg id="icon1-wheat" xmlns="http://www.w3.org/2000/svg" width="511.03" height="511.03" viewBox="0 0 511.03 511.03">
+<svg id="wheat" xmlns="http://www.w3.org/2000/svg" width="511.03" height="511.03" viewBox="0 0 511.03 511.03">
   <defs>
     <style>
       .cls-1 {
@@ -18,24 +18,9 @@
         stroke-dasharray: 23.66 23.66;
       }
 
-      #icon1-wheat:hover .cls-3 { 
-      transform-origin: center center; 
-      animation: rotate 15s infinite linear;
+      .cls-4 {
+        fill: #00d00b;
       }
-
-      #icon1-wheat:hover .cls-1 {
-      sha: 0 3px 5px rgba(0,0,0,.5); 
-      }
-
-      @keyframes rotate {
-       0% {
-       transform: rotate(0deg)
-       }
-       100% {
-       transform: rotate(360deg)
-  }
-}
-
     </style>
   </defs>
   <circle id="blackBG" class="cls-1" cx="255.52" cy="255.52" r="255.52"/>
@@ -46,5 +31,8 @@
   </g>
   <g id="whiteDashes">
     <circle class="cls-3" cx="255.52" cy="255.52" r="233.5"/>
+  </g>
+  <g id="selected">
+    <path class="cls-4" d="M256.5,4.5a251.56,251.56,0,0,1,97.9,483.23A251.5,251.5,0,0,1,78.67,78.16,250.67,250.67,0,0,1,256.5,4.5m0-4C115.39.5,1,114.89,1,256S115.39,511.5,256.5,511.5,512,397.11,512,256,397.61.5,256.5.5Z" transform="translate(-0.99 -0.48)"/>
   </g>
 </svg>
