@@ -12,8 +12,8 @@
 
 	<header id="mainHeader">
 		<h1 class="hidden">SVG Marketplace</h1>
-		<img src="images/logo.svg">
-		<nav id="mainNav">
+		<img src="images/logo.svg" alt="Company Logo">
+		<nav class="mainNav">
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Icons</a></li>
@@ -30,16 +30,22 @@
 
 		<div class="iconRow">
 
+<!-- 		This is the markup I was trying to get to work with Javascript. 	
+
 			<div class="icon" id="Wheat">
 		<object class="iconSelection" data="images/icon1-wheat.svg" type="image/svg+xml"></object>
-		<button class="selectIcon" data-character="icon1-wheatselected">Wheat</button>
-		<button class="selectIcon" data-icon="selected">X</button>
+		<button class="selectIcon" data-character="icon1-wheatSelected">Wheat</button>
+			</div> -->
+
+			<div class="icon" id="Wheat">
+		<object class="iconSelection" data="images/icon1-wheat.svg" type="image/svg+xml"></object>
+		<button>Wheat</button>
 			</div>
 
-			<div class="icon" id="Boot Mug">
-		<object data="images/icon2-bootMug.svg" type="image/svg+xml" class="icon" id="Boot Mug"></object><button>Boot Mug</button></div>
+			<div class="icon" id="Boot-Mug">
+		<object data="images/icon2-bootMug.svg" type="image/svg+xml" ></object><button>Boot Mug</button></div>
 		
-		<div class="icon" id="Beer Crate">
+		<div class="icon" id="Beer-Crate">
 		<object data="images/icon3-beerCrate.svg" type="image/svg+xml" class="icon"></object><button>Beer Crate</button></div>
 		
 		<div class="icon" id="Hops">
@@ -51,7 +57,7 @@
 			<div class="icon" id="Brewery">
 		<object data="images/icon5-brewery.svg" type="image/svg+xml" class="icon"></object><button>Brewery</button></div>
 		
-			<div class="icon" id="Beer Tap">
+			<div class="icon" id="Beer-Tap">
 		<object data="images/icon6-beerTap.svg" type="image/svg+xml" class="icon"></object><button>Beer Tap</button></div>
 		
 		<div class="icon" id="Malt">
@@ -63,13 +69,13 @@
 		</div>
 		<div class="iconRow">
 
-			<div class="icon" id="Keg Mug">
+			<div class="icon" id="Keg-Mug">
 		<object data="images/icon9-kegMug.svg" type="image/svg+xml" class="icon"></object><button>Keg Mug</button></div>
 
 			<div class="icon" id="Bar">
 		<object data="images/icon10-bar.svg" type="image/svg+xml" class="icon"></object><button>Bar</button></div>
 
-			<div class="icon" id="Can And Bottle">
+			<div class="icon" id="Can-And-Bottle">
 		<object data="images/icon11-canBottle.svg" type="image/svg+xml" class="icon"></object><button>Can And Bottle</button></div>
 
 			<div class="icon" id="Pub">
@@ -81,26 +87,26 @@
 
 	<footer>
 		<h1 class="hidden">SVG Marketplace</h1>
-		<img src="images/logoSmall.svg">
+		<img src="images/logoSmall.svg" alt="Small Company Logo">
 		<div id="footerLinks">
-		<p id="copyright">©2020 SVG Marketplace</p>
-		<nav id="mainNav">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Icons</a></li>
-				<li><a href="#">Artists</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
+			<p id="copyright">©2020 SVG Marketplace</p>
+				<nav class="mainNav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Icons</a></li>
+						<li><a href="#">Artists</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
 		<nav id="socialMedia">
 			<ul>
-				<li><a href="#"><img src="images/social-twitter.svg"></a></li>
-				<li><a href="#"><img src="images/social-facebook.svg"></a></li>
-				<li><a href="#"><img src="images/social-rss.svg"></a></li>
-				<li><a href="#"><img src="images/social-share.svg"></a></li>
+				<li><a href="#"><img src="images/social-twitter.svg" alt="Twitter Logo"></a></li>
+				<li><a href="#"><img src="images/social-facebook.svg" alt="Facebook Logo"></a></li>
+				<li><a href="#"><img src="images/social-rss.svg" alt="RSS Feed"></a></li>
+				<li><a href="#"><img src="images/social-share.svg" alt="Share This Page"></a></li>
 			</ul>
-			</div>
 		</nav>
+	</div>
 	</footer>
 
 </div> <!-- wrapper div ends here! -->
