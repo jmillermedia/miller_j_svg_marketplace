@@ -22,4 +22,23 @@
 
 	// I wasn't able to get the selected portion working. I tried swapping out the object's data using the commented out code. I was able to interact with the object data in line 17, but ultimately I couldn't get line 15 working. JavaScript output on the object was 'data="images/undefined.svg""
 
+	/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+
+let emailDrop = document.querySelectorAll('.emailDropdown'),
+	emailButton = document.querySelectorAll('emailButtonId');
+
+
+function dropDown() {
+	emailDrop.classList.add("show");
+}
+
+function animate() {
+	document.getElementsById('email').classList.toggle('animateEmail');
+}
+
+emailDrop.forEach(drop => drop.addEventListener('click', dropDown, animate));
+
+console.log(emailDrop);
+
 })();

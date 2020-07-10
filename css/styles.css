@@ -139,3 +139,119 @@ object {
 	width: 250px;
 	height: 250px;
 }
+
+button {
+	color: white;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-items: center;
+	align-items: center;
+	height: 50px;
+	width: 250px;;
+	border-radius: 8px;
+	border: none;
+	
+}
+
+button:active {
+	border: none;
+}
+
+.icoSelect {
+	position: absolute;
+	background-color: #3E7096;
+	border-radius: 8px;
+	margin-bottom: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 250px;
+	margin-top: -213px;
+	display: none;
+}
+
+.icoSelect img {
+	width: 90px;
+	margin: 10px;
+}
+
+
+
+#email {
+	width: 70px;
+}
+
+#email.animateEmail {
+	animation: skew 0.75s forwards;
+}
+
+.addCollection {
+	width: 40px;
+}
+
+.addCollection:hover {
+	animation: dash 3s linear;
+}
+
+.emailButton, .collectionButton {
+	background-color: #73B2E3;
+}
+
+.emailDropdown {
+	position: absolute;
+	display: none;
+	padding: 10px;
+	background-color: #3E7096;
+	border-radius: 8px;
+}
+
+.show {
+	transition: 1s;
+	display: block;
+}
+
+#emailForm {
+	width: 220px;
+	
+	height: 25px;
+	border-radius: 8px;
+	padding-left: 8px;
+}
+
+#line1 {
+	animation: dash 1s linear forwards;
+}
+
+@keyframes skew {
+	0% {
+		transform: skewX(0deg);
+	}
+	100% {
+		transform: skewX(-15deg);
+	}
+}
+
+@keyframes dash {
+	0% {
+		stroke-dashoffset: 1000;
+		stroke: rgba(0, 0, 0, 1);
+		stroke-width: 1;
+		fill: rgba(255, 0, 0, 0);
+	}
+
+	85% {
+		stroke-dashoffset: 0;
+		stroke-width: 2;
+		fill: (rgba(255, 0, 0, 0));
+
+	}
+
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 1;
+
+	}
+}

@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <g id="sqaureTL">
+    <path d="M251.5,136V248h-112V136h112m21.77-40H117.73A18.23,18.23,0,0,0,99.5,114.23V269.77A18.23,18.23,0,0,0,117.73,288H273.27a18.23,18.23,0,0,0,18.23-18.23V114.23A18.23,18.23,0,0,0,273.27,96Z" fill="#fff"/>
+  </g>
+  <g id="sqaureBL">
+    <path d="M251.5,352V464h-112V352h112m21.77-40H117.73A18.23,18.23,0,0,0,99.5,330.23V485.77A18.23,18.23,0,0,0,117.73,504H273.27a18.23,18.23,0,0,0,18.23-18.23V330.23A18.23,18.23,0,0,0,273.27,312Z" fill="#fff"/>
+  </g>
+  <g id="squareBR">
+    <path d="M460.5,352V464h-112V352h112m21.77-40H326.73a18.23,18.23,0,0,0-18.23,18.23V485.77A18.23,18.23,0,0,0,326.73,504H482.27a18.23,18.23,0,0,0,18.23-18.23V330.23A18.23,18.23,0,0,0,482.27,312Z" fill="#fff"/>
+  </g>
+  <g id="plusHorizontal">
+    <line x1="312.5" y1="192" x2="496.5" y2="192" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="40"/>
+  </g>
+  <g id="plusVertical">
+    <line x1="404.5" y1="100" x2="404.5" y2="284" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="40"/>
+  </g>
+</svg>
