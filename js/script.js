@@ -1,44 +1,37 @@
 // JAVASCRIPT START
 
 (() => {
-	console.log('JS is working.')
+	// console.log('JS is working.')
 
 	let theIcons = document.querySelectorAll('.icon');
 	//mainImage = document.querySelector(".iconSelection");
 
 	function logID() {
-		console.log("You have clicked on: " + this.id);
-	}
-
-	//function switchImage() {
-		
-	//	let currentImage = this.dataset.character + ".svg";
-		
-	//	mainImage.data = "images/" + currentImage;
-	//}
 
 	theIcons.forEach(icon => icon.addEventListener('click', logID));
-	//theIcons.forEach(button => button.addEventListener('click', switchImage));
-
-	// I wasn't able to get the selected portion working. I tried swapping out the object's data using the commented out code. I was able to interact with the object data in line 17, but ultimately I couldn't get line 15 working. JavaScript output on the object was 'data="images/undefined.svg""
-
-	/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-
-let emailDrop = document.querySelectorAll('.emailDropdown'),
-	emailButton = document.querySelectorAll('emailButtonId');
+	}
+	
+	let emailDrop = document.querySelectorAll('.emailButton'),
+	emailButton = document.querySelectorAll('.emailDropdown'),
+	imageSelect = document.querySelectorAll('.icoSelect'),
+	imageButton = document.querySelectorAll('.collectionButton');
 
 
-function dropDown() {
-	emailDrop.classList.add("show");
+	function dropUp() {
+		imageSelect[0].classList.toggle('show');
+	}
+
+
+	function dropDown() {
+		emailButton[0].classList.toggle('show');
+		emailDrop[0].getElementsByTagName('img').classList.toggle('.animateEmail')
 }
 
-function animate() {
-	document.getElementsById('email').classList.toggle('animateEmail');
-}
+	emailDrop.forEach(drop => drop.addEventListener('click', dropDown));
 
-emailDrop.forEach(drop => drop.addEventListener('click', dropDown, animate));
+	imageButton.forEach(select => select.addEventListener('click', dropUp));
 
-console.log(emailDrop);
+
+	console.log(imageSelect);
 
 })();

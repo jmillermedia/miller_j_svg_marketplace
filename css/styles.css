@@ -168,23 +168,30 @@ button:active {
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 250px;
-	margin-top: -213px;
+	width: 230px;
+	margin-top: -238px;
 	display: none;
+	opacity: 0.95;
+	padding: 10px;
 }
 
 .icoSelect img {
 	width: 90px;
-	margin: 10px;
+	padding: 10px;
+	border-radius: 8px;
 }
 
+.icoSelect img:hover {
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #73B2E3;
+}
 
-
-#email {
+.email {
 	width: 70px;
 }
 
-#email.animateEmail {
+.animateEmail {
 	animation: skew 0.75s forwards;
 }
 
@@ -206,6 +213,7 @@ button:active {
 	padding: 10px;
 	background-color: #3E7096;
 	border-radius: 8px;
+	opacity: 0.95;
 }
 
 .show {
@@ -213,7 +221,7 @@ button:active {
 	display: block;
 }
 
-#emailForm {
+.emailForm {
 	width: 220px;
 	
 	height: 25px;
