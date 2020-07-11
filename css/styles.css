@@ -62,11 +62,24 @@
 	height: 32px;
 }
 
+.iconTitle {
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 16px;
+	float: left;
+}
+
 .iconRow {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 32px;
+}
+
+.noBorder {
+	border: none;
 }
 
 object {
@@ -229,7 +242,7 @@ button:active {
 	padding-left: 8px;
 }
 
-#line1 {
+#squareBL {
 	animation: dash 1s linear forwards;
 }
 
@@ -238,7 +251,7 @@ button:active {
 		transform: skewX(0deg);
 	}
 	100% {
-		transform: skewX(-15deg);
+		transform: skewX(-20deg);
 	}
 }
 

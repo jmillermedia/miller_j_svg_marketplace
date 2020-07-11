@@ -14,6 +14,7 @@
 		<h1 class="hidden">SVG Marketplace</h1>
 		<img src="images/logo.svg" alt="Company Logo">
 		<nav class="mainNav">
+			<h2 class="hidden">Main Navigation</h2>
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Icons</a></li>
@@ -25,19 +26,14 @@
 	</header>
 
 	<section>
-			<h2 id="sectionMap"><a href="#"> Home</a> > <a href="#">Free Icons</a> > Beer Icons:</h2>
+		<h2 class="hidden">Main Icon Selection Section</h2>
+			<div id="sectionMap"><a href="#"> Home</a> > <a href="#">Free Icons</a> > Beer Icons:</div>
 			<div id="search"><input type="search" name="searchIcons" placeholder="Search 1,000,000 Icons!"></div>
 
 		<div class="iconRow">
 
-<!-- 		This is the markup I was trying to get to work with Javascript. 	
-
 			<div class="icon" id="Wheat">
-		<object class="iconSelection" data="images/icon1-wheat.svg" type="image/svg+xml"></object>
-		<button class="selectIcon" data-character="icon1-wheatSelected">Wheat</button>
-			</div> -->
-
-			<div class="icon" id="Wheat">
+				<h2 class="iconTitle">Wheat</h2>
 			<object class="iconSelection" data="images/icon1-wheat.svg" type="image/svg+xml"></object>
 			<div class="icoSelect">
 				<img src="images/icoSVG.svg" alt="SVG Icon">
@@ -45,13 +41,13 @@
 				<img src="images/icoPNG.svg" alt="PNG Icon">
 				<img src="images/icoJPG.svg" alt="JPG Icon">
 			</div>
-		<button class="collectionButton" class="dropbtn">
-			<p>Image Type</p>
+		<button class="collectionButton dropbtn">
+			Image Type
 			<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
 		</button>
 
-		<button class="emailButton" class="emailButtonId">
-			<p>Email Me This Image</p>
+		<button class="emailButton emailButtonId">
+			Email Me This Image
 			<img src="images/email.svg" alt="email button" class="email">
 		</button>
 
@@ -61,72 +57,288 @@
 			</div> <!-- icon class div closing -->
 
 			<div class="icon" id="Boot-Mug">
-		<object data="images/icon2-bootMug.svg" type="image/svg+xml" ></object><div class="icoSelect">
+				<h2 class="iconTitle">Boot Mug</h2>
+		<object data="images/icon2-bootMug.svg" type="image/svg+xml" >
+		</object>
+		<div class="icoSelect">
 			<img src="images/icoSVG.svg" alt="SVG Icon">
 			<img src="images/icoPDF.svg" alt="PDF Icon">
 			<img src="images/icoPNG.svg" alt="PNG Icon">
 			<img src="images/icoJPG.svg" alt="JPG Icon">
 		</div>
-	<button class="collectionButton" class="dropbtn">
-		<p>Image Type</p>
+	<button class="collectionButton dropbtn">
+		Image Type
 		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
 	</button>
-		<button class="emailButton" class="emailButtonId">
-			<p>Email Me This Image</p>
-			<img src="images/email.svg" class="email" alt="email button">
-		</button>
 
-		<div class="emailDropdown">
-			<input type="email" name="Email" id="emailForm" placeholder="Please enter your email.">
-		</div>
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
 	</div>
 		
 		<div class="icon" id="Beer-Crate">
-		<object data="images/icon3-beerCrate.svg" type="image/svg+xml" class="icon"></object><button>Beer Crate</button></div>
+			<h2 class="iconTitle">Beer Crate</h2>
+		<object data="images/icon3-beerCrate.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 		
 		<div class="icon" id="Hops">
-		<object data="images/icon4-hops.svg" type="image/svg+xml" class="icon"></object><button>Hops</button></div>
+			<h2 class="iconTitle">Hops</h2>
+		<object data="images/icon4-hops.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 
 		</div><!-- Icon Row div close -->
 		<div class="iconRow">
 
 			<div class="icon" id="Brewery">
-		<object data="images/icon5-brewery.svg" type="image/svg+xml" class="icon"></object><button>Brewery</button></div>
+				<h2 class="iconTitle">Brewery</h2>
+		<object data="images/icon5-brewery.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 		
 			<div class="icon" id="Beer-Tap">
-		<object data="images/icon6-beerTap.svg" type="image/svg+xml" class="icon"></object><button>Beer Tap</button></div>
+				<h2 class="iconTitle">Beer Tap</h2>
+		<object data="images/icon6-beerTap.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 		
 		<div class="icon" id="Malt">
-		<object data="images/icon7-malt.svg" type="image/svg+xml" class="icon"></object><button>Malt</button></div>
+			<h2 class="iconTitle">Malt</h2>
+		<object data="images/icon7-malt.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	
+	</div>
 		
 		<div class="icon" id="Bucket'o'Beer">
-		<object data="images/icon8-bucketBeer.svg" type="image/svg+xml" class="icon"></object><button>Bucket'o'Beer</button></div>
+			<h2 class="iconTitle">Bucket'o'Beer</h2>
+		<object data="images/icon8-bucketBeer.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 
 		</div>
-		<div class="iconRow">
+		<div class="iconRow noBorder">
 
 			<div class="icon" id="Keg-Mug">
-		<object data="images/icon9-kegMug.svg" type="image/svg+xml" class="icon"></object><button>Keg Mug</button></div>
+				<h2 class="iconTitle">Keg Mug</h2>
+		<object data="images/icon9-kegMug.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 
 			<div class="icon" id="Bar">
-		<object data="images/icon10-bar.svg" type="image/svg+xml" class="icon"></object><button>Bar</button></div>
+				<h2 class="iconTitle">Bar</h2>
+		<object data="images/icon10-bar.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 
 			<div class="icon" id="Can-And-Bottle">
-		<object data="images/icon11-canBottle.svg" type="image/svg+xml" class="icon"></object><button>Can And Bottle</button></div>
+				<h2 class="iconTitle">Can And Bottle</h2>
+		<object data="images/icon11-canBottle.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 
 			<div class="icon" id="Pub">
-		<object data="images/icon12-pub.svg" type="image/svg+xml" class="icon"></object><button>Pub</button></div>
+				<h2 class="iconTitle">Pub</h2>
+		<object data="images/icon12-pub.svg" type="image/svg+xml" class="icon"></object>
+		<div class="icoSelect">
+			<img src="images/icoSVG.svg" alt="SVG Icon">
+			<img src="images/icoPDF.svg" alt="PDF Icon">
+			<img src="images/icoPNG.svg" alt="PNG Icon">
+			<img src="images/icoJPG.svg" alt="JPG Icon">
+		</div>
+	<button class="collectionButton dropbtn">
+		Image Type
+		<img src="images/addToCollection.svg" alt="Add To Collection Button" class="addCollection">
+	</button>
+
+	<button class="emailButton emailButtonId">
+		Email Me This Image
+		<img src="images/email.svg" alt="email button" class="email">
+	</button>
+
+	<div class="emailDropdown">
+		<input type="email" class="emailForm" name="Email" placeholder="Please enter your email.">
+	</div>
+	</div>
 
 		</div>
 
 	</section>
 
 	<footer>
-		<h1 class="hidden">SVG Marketplace</h1>
+		<h2 class="hidden">Footer</h2>
 		<img src="images/logoSmall.svg" alt="Small Company Logo">
 		<div id="footerLinks">
 			<p id="copyright">©2020 SVG Marketplace</p>
 				<nav class="mainNav">
+					<h3 class="hidden">Footer Navigation</h3>
 					<ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Icons</a></li>
@@ -135,6 +347,7 @@
 					</ul>
 				</nav>
 		<nav id="socialMedia">
+			<h3 class="hidden">Social Media Navigation</h3>
 			<ul>
 				<li><a href="#"><img src="images/social-twitter.svg" alt="Twitter Logo"></a></li>
 				<li><a href="#"><img src="images/social-facebook.svg" alt="Facebook Logo"></a></li>
